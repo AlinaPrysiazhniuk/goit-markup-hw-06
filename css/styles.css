@@ -1068,6 +1068,8 @@ color: var(--comment-color);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-form-color);
+
+  transition: color var(--animation);
 }
 
 .check-text span {
@@ -1088,7 +1090,8 @@ color: var(--comment-color);
   fill: #ffffff;
 }
 
-.modal-check:focus + .check-text span {
+.modal-check:focus + .check-text span,
+.modal-check:hover + .check-text span {
   border-color: var(--accent-color);
 }
 
