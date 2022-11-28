@@ -794,6 +794,8 @@ padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 16px;
 
+color: var(--accent-color-text);
+
 border: 1px solid var(--send-input-color);
 filter: drop-shadow(0px 4px 4px var(--send-input-shadow));
 border-radius: 4px;
@@ -1154,4 +1156,3 @@ color: var(--comment-color);
   }
 
  
-
