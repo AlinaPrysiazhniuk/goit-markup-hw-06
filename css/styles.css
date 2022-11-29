@@ -327,6 +327,8 @@ body {
   background-color: transparent;
   border: 1px solid var(--button-close-border);
   border-radius: 50%;
+
+  cursor: pointer;
 }
 
 .icon-close-black {
@@ -665,6 +667,7 @@ body {
 .welcome {
   font-family: 'Roboto';
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -674,7 +677,7 @@ body {
 
 .footer-main {
   display: flex;
-  gap: 69px;
+  gap: 93px;
 }
 
 .footer-soc-list {
@@ -951,6 +954,9 @@ transition: border-color var(--animation);
   padding-left: 40px;
 }
 
+.modal-field {
+  margin-bottom: 10px;
+}
 
 .modal-title {
 font-weight: 700;
@@ -975,7 +981,6 @@ color: var(--text-form-color);
 
 .input-wrapper {
   position: relative;
-  margin-bottom: 10px;
 }
 
 .modal-input {
