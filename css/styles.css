@@ -625,7 +625,7 @@ body {
 }
 
 .footer-main {
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-logo-end {
